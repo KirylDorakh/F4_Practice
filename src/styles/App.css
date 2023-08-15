@@ -1,4 +1,26 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #4a4e6b;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#root nav{
+    display: flex;
+    gap: 10px;
+}
+
+#root nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#root nav a:hover{
+    color: darkorange;
+    text-decoration: none;
 }
